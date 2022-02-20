@@ -1,5 +1,5 @@
 import { useState, useEffect} from "react";
-
+import "../styles.css";
 
 const initialFormValues= { fullname: "", phone_number: "" };
 
@@ -45,7 +45,7 @@ function Form( {addContact, contacts}) {
         />
       </div>
 
-      <div>
+      <div className="btn">
         <button>Add</button>
       </div>
     </form>
